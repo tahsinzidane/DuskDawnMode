@@ -1,0 +1,86 @@
+/* Night Mode Styles for All Elements */
+.night-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.night-mode a {
+    color: #bb86fc;
+}
+
+.night-mode header,
+.night-mode nav,
+.night-mode footer,
+.night-mode div,
+.night-mode section,
+.night-mode article,
+.night-mode aside,
+.night-mode main,
+.night-mode p,
+.night-mode h1, .night-mode h2, .night-mode h3, .night-mode h4, .night-mode h5, .night-mode h6,
+.night-mode ul, .night-mode ol, .night-mode li,
+.night-mode table, .night-mode th, .night-mode td,
+.night-mode button, .night-mode input, .night-mode textarea, .night-mode select,
+.night-mode blockquote, .night-mode code, .night-mode pre {
+    background-color: #1c1c1c;
+    color: #e0e0e0;
+    border-color: #333;
+}
+
+.night-mode hr {
+    border-color: #333;
+}
+
+.night-mode input,
+.night-mode textarea,
+.night-mode select,
+.night-mode button {
+    background-color: #333;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+.night-mode input::placeholder,
+.night-mode textarea::placeholder {
+    color: #999;
+}
+
+.night-mode code,
+.night-mode pre {
+    background-color: #333;
+    color: #bb86fc;
+}
+
+.night-mode table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.night-mode th, 
+.night-mode td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+.night-mode th {
+    background-color: #222;
+    color: #e0e0e0;
+}
+
+.night-mode td {
+    background-color: #1c1c1c;
+}
+
+.night-mode ul,
+.night-mode ol {
+    list-style-type: none;
+}
+
+.night-mode li::before {
+    content: "\2022";
+    color: #bb86fc;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}

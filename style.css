@@ -1,0 +1,103 @@
+/* Reset some default styling */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Navbar */
+.navbar {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    float: left;
+}
+
+.navbar-nav {
+    list-style: none;
+    float: right;
+}
+
+.navbar-nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.navbar-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Header */
+.header {
+    background: #007bff;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.header .lead {
+    font-size: 1.2em;
+}
+
+/* Section */
+.section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Night Mode Styles */
+.night-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.night-mode .navbar {
+    background-color: #1c1c1c;
+    color: #e0e0e0;
+}
+
+.night-mode .navbar-nav a {
+    color: #e0e0e0;
+}
+
+.night-mode .header {
+    background-color: #1c1c1c;
+}
+
+.night-mode .section {
+    background-color: #1c1c1c;
+    border-color: #333;
+}
+
+.night-mode .footer {
+    background-color: #1c1c1c;
+    color: #e0e0e0;
+}
