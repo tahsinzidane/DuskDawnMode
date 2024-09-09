@@ -17,14 +17,37 @@
 .night-mode aside,
 .night-mode main,
 .night-mode p,
-.night-mode h1, .night-mode h2, .night-mode h3, .night-mode h4, .night-mode h5, .night-mode h6,
-.night-mode ul, .night-mode ol, .night-mode li,
-.night-mode table, .night-mode th, .night-mode td,
-.night-mode button, .night-mode input, .night-mode textarea, .night-mode select,
-.night-mode blockquote, .night-mode code, .night-mode pre {
+.night-mode h1,
+.night-mode h2,
+.night-mode h3,
+.night-mode h4,
+.night-mode h5,
+.night-mode h6,
+.night-mode ul,
+.night-mode ol,
+.night-mode li,
+.night-mode table,
+.night-mode th,
+.night-mode td,
+.night-mode button,
+.night-mode input,
+.night-mode textarea,
+.night-mode select,
+.night-mode blockquote,
+.night-mode code,
+.night-mode pre {
     background-color: #1c1c1c;
     color: #e0e0e0;
     border-color: #333;
+}
+
+.night-mode h1,
+.night-mode h2,
+.night-mode h3,
+.night-mode h4,
+.night-mode h5,
+.night-mode h6{
+    color: #e0e0e0;
 }
 
 .night-mode hr {
@@ -56,7 +79,7 @@
     width: 100%;
 }
 
-.night-mode th, 
+.night-mode th,
 .night-mode td {
     padding: 8px;
     text-align: left;
