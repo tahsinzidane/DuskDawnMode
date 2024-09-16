@@ -16,16 +16,6 @@
 .night-mode article,
 .night-mode aside,
 .night-mode main,
-.night-mode p,
-.night-mode h1,
-.night-mode h2,
-.night-mode h3,
-.night-mode h4,
-.night-mode h5,
-.night-mode h6,
-.night-mode ul,
-.night-mode ol,
-.night-mode li,
 .night-mode table,
 .night-mode th,
 .night-mode td,
@@ -41,12 +31,16 @@
     border-color: #333;
 }
 
+.night-mode p,
 .night-mode h1,
 .night-mode h2,
 .night-mode h3,
 .night-mode h4,
 .night-mode h5,
-.night-mode h6{
+.night-mode h6,
+.night-mode ul,
+.night-mode ol,
+.night-mode li{
     color: #e0e0e0;
 }
 
